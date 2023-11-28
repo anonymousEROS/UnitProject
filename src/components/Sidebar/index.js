@@ -25,7 +25,7 @@ const Sidebar = ({ isOpen, toggle }) => {
                 <SidebarLink to='call' onClick={toggle}>$.(Casting)</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to='/about'>Sign In</SidebarRoute>
+                {/* <SidebarRoute to='/about'>Sign In</SidebarRoute> */}
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>
