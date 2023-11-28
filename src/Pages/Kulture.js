@@ -1,9 +1,10 @@
 import React, {useState} from 'react'
-import {PgContainer,Header} from './pageElements'
+import {PgContainer,Header,Img2} from './pageElements'
 import {Button} from './codeElements';
 import {ArrowForward, ArrowRight} from '../components/HeroSection/HeroElements'
 import { useHistory } from 'react-router-dom';
 import story from '../Audio/Values.mp3'
+import pic1 from '../images/connect.jpg'
 
 
 
@@ -30,6 +31,7 @@ const Kulture = () => {
       Personal Connection and Appeal
       </Header>
       <Header color="#9370db">
+      < Img2 src={pic1} />
         <ul>
         <li>Forgiveness and Growth</li>
         <li>Universal Vulnerability</li>

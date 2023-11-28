@@ -1,10 +1,11 @@
 
 import React, { useState } from 'react'
-import {PgContainer,Header} from './pageElements'
+import {PgContainer,Header,Img2} from './pageElements'
 import {Button} from './codeElements';
 import {ArrowForward, ArrowRight} from '../components/HeroSection/HeroElements'
 import { useHistory } from 'react-router-dom';
 import story from '../Audio/Response.mp3'
+import pic1 from '../images/hand.jpg'
 
 const newWorldOrder = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -31,10 +32,11 @@ const handleClick = () => {
           </audio>
     Appropriate Response
     </Header>
+        
         <Header color="#9370db">
-           
-        </Header>
-        <Header color="#9370db">
+        <center>
+      < Img2 src={pic1} />
+      </center>
         <ul>
         <li>Acknowledgment</li>
         <li>Compassion</li>

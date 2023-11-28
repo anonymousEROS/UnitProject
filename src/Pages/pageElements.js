@@ -53,7 +53,7 @@ padding-right: 0;
 `;
 
 export const Img2 = styled.img`
-width: 30%;
+width: 50vw;
 border-radius: 10%;
 margin: 0 0 10px 0;
 padding-right: 0;
