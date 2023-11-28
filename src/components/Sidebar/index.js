@@ -7,7 +7,7 @@ SidebarWrapper,
 SidebarMenu,
 SidebarLink,
 SideBtnWrap,
-SidebarRoute
+// SidebarRoute
 } from './SidebarElements'
 
 const Sidebar = ({ isOpen, toggle }) => {
