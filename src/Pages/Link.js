@@ -4,6 +4,7 @@ import {Button} from './codeElements';
 import {ArrowForward, ArrowRight} from '../components/HeroSection/HeroElements'
 import { useHistory } from 'react-router-dom';
 import story from '../images/qr.png'
+import Footer from '../components/Footer'
 
 
 const signUp = () => {
@@ -33,6 +34,7 @@ const signUp = () => {
       <Button onClick={handleClick} primary='true' dark='true' onMouseEnter={onHover} onMouseLeave={onHover}>
         The Story {hover ? <ArrowForward /> : <ArrowRight/>}</Button>
         </Header>
+        <Footer />
     </PgContainer>
   )
 }

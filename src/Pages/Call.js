@@ -6,6 +6,7 @@ import { useHistory } from 'react-router-dom';
 import story from '../images/jes.jpg'
 import call from '../Audio/Call.mp3'
 
+
 const signUp = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [hover, setHover] = useState(false)
@@ -36,7 +37,10 @@ const signUp = () => {
       </center>
       <Button onClick={handleClick} primary='true' dark='true' onMouseEnter={onHover} onMouseLeave={onHover}>
       Next Page(Scan Me) {hover ? <ArrowForward /> : <ArrowRight/>}</Button>
+      
         </Header>
+        
+
     </PgContainer>
   )
 }
